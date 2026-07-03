@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>CSS color example</title>
+
+
+
+   
+    <style>
+
+
+     /*position*/
+     nav a{
+        display: inline-block;
+        padding: 10px 15px;
+
+     }
+
+     /*A banner pinnned at the right to the top while scrolling*/
+     .top-bar{
+        position: fixed;
+        top: 0;
+        left:0;
+        width: 100%;
+        background: navy;
+        color:white;
+        z-index: 100;
+
+     }
+
+
+     /*A badge pinned to the top while scrolling*/
+
+     .card{position: relative;}
+     .badge{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: crimson;
+        color: white;
+
+        
+     }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1> Welcome to my website</h1>
+    </section>
+
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>
+            This card uses a faint teal background created with
+             <strong>rgba()</strong>and a dark text colour using
+              <strong>hs1()</strong>.
+        </p>
+    </div>
+    
+</body>
+</html>
